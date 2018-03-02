@@ -6,7 +6,7 @@ import javax.persistence.*;
  * @author mkaletka
  */
 @Entity
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+@Inheritance
 @DiscriminatorColumn(name = "discriminator")
 public abstract class GrandParent {
 
